@@ -21,7 +21,14 @@ description: >-
 
 <section id="features" class="py-5">
   <div class="container px-4 px-lg-5">
-    <div class="row gx-4 gx-lg-5 row-cols-1 row-cols-md-2 row-cols-lg-3 text-center">
+    <div class="row gx-4 gx-lg-5 row-cols-1 row-cols-md-2 row-cols-lg-4 justify-content-center text-center">
+      <div class="col mb-5">
+        <div class="feature-icon"><i class="bi bi-compass"></i></div>
+        <h3>Track your life dimensions</h3>
+        <p>Start from seven life dimensions — Career, Learning, Health,
+        Creativity, Finance, Social and Mindset — set a yearly target for
+        each, and watch your Life Map show where you stand.</p>
+      </div>
       <div class="col mb-5">
         <div class="feature-icon"><i class="bi bi-calendar3"></i></div>
         <h3>Plan your day</h3>
