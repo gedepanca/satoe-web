@@ -9,6 +9,7 @@ description: >-
 
 <header class="masthead">
   <div class="container px-4 px-lg-5">
+    <p class="text-uppercase small mb-2 opacity-75" style="letter-spacing: .15em;">by Satoe</p>
     <h1>Satoe-Hub</h1>
     <p class="lead">Set yearly targets for the parts of your life that matter,
     link the daily habits that move them, and watch your Life Map fill in —
