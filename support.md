@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Support
 description: Get help with Satoe-Hub.
 ---

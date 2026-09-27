@@ -13,9 +13,9 @@ description: >-
     <p class="lead">Set yearly targets for the parts of your life that matter,
     link the daily habits that move them, and watch your Life Map fill in —
     synced privately through iCloud.</p>
-    <a class="btn btn-light btn-lg mt-3" href="#" role="button">
-      <i class="bi bi-apple"></i> Available on the App Store
-    </a>
+    <span class="btn btn-light btn-lg mt-3 disabled" role="button" aria-disabled="true">
+      <i class="bi bi-apple"></i> Coming soon to the App Store
+    </span>
   </div>
 </header>
 
@@ -96,8 +96,8 @@ description: >-
 <section class="py-5">
   <div class="container px-4 px-lg-5 text-center">
     <h2>Get Satoe-Hub</h2>
-    <a class="btn btn-primary btn-lg mt-3" href="#" role="button">
-      <i class="bi bi-apple"></i> Available on the App Store
-    </a>
+    <span class="btn btn-primary btn-lg mt-3 disabled" role="button" aria-disabled="true">
+      <i class="bi bi-apple"></i> Coming soon to the App Store
+    </span>
   </div>
 </section>

@@ -6,3 +6,7 @@ url: "https://satoe.app"
 baseurl: ""
 markdown: kramdown
 permalink: pretty
+exclude:
+  - docs
+  - Gemfile
+  - Gemfile.lock
