@@ -5,6 +5,21 @@ description: >-
   Set yearly targets for the parts of your life that matter, link the daily
   habits that move them, and watch your Life Map fill in — synced privately
   through iCloud.
+screenshots:
+  - file: today.png
+    caption: Today at a glance
+  - file: timeline.png
+    caption: Your day as a timeline
+  - file: review.png
+    caption: Weekly review &amp; Life Map
+  - file: goals.png
+    caption: Goals and the habits behind them
+  - file: habits.png
+    caption: Habits and their streaks
+  - file: todos.png
+    caption: To-dos by category
+  - file: settings.png
+    caption: Reminders &amp; appearance
 ---
 
 <header class="masthead">
@@ -75,28 +90,17 @@ description: >-
 <section id="screenshots" class="py-5 bg-light">
   <div class="container px-4 px-lg-5">
     <h2 class="text-center mb-5">See it in action</h2>
-    <div class="row gx-4 gx-lg-5 row-cols-1 row-cols-md-3 text-center">
-      <div class="col mb-5">
-        <div class="screenshot-frame">
-          <img src="{{ '/assets/img/screenshot-placeholder.svg' | relative_url }}"
-               alt="Placeholder — Today screen screenshot coming soon" class="img-fluid">
+    <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-lg-4 justify-content-center text-center">
+      {% for shot in page.screenshots %}
+        <div class="col mb-5">
+          <div class="screenshot-frame">
+            <img src="{{ '/assets/img/' | append: shot.file | relative_url }}"
+                 alt="Satoe-Hub screenshot: {{ shot.caption }}" class="img-fluid"
+                 width="1206" height="2622" loading="lazy">
+          </div>
+          <p class="mt-3">{{ shot.caption }}</p>
         </div>
-        <p class="mt-3">Today</p>
-      </div>
-      <div class="col mb-5">
-        <div class="screenshot-frame">
-          <img src="{{ '/assets/img/screenshot-placeholder.svg' | relative_url }}"
-               alt="Placeholder — Goals and Dimensions screenshot coming soon" class="img-fluid">
-        </div>
-        <p class="mt-3">Goals &amp; Dimensions</p>
-      </div>
-      <div class="col mb-5">
-        <div class="screenshot-frame">
-          <img src="{{ '/assets/img/screenshot-placeholder.svg' | relative_url }}"
-               alt="Placeholder — Weekly review screenshot coming soon" class="img-fluid">
-        </div>
-        <p class="mt-3">Weekly review</p>
-      </div>
+      {% endfor %}
     </div>
   </div>
 </section>
