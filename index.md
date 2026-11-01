@@ -5,6 +5,7 @@ description: >-
   Set yearly targets for the parts of your life that matter, link the daily
   habits that move them, and watch your Life Map fill in — synced privately
   through iCloud.
+app_store_url: https://apps.apple.com/app/id6815494923
 screenshots:
   - file: today.png
     caption: Today at a glance
@@ -29,9 +30,9 @@ screenshots:
     <p class="lead">Set yearly targets for the parts of your life that matter,
     link the daily habits that move them, and watch your Life Map fill in —
     synced privately through iCloud.</p>
-    <span class="btn btn-light btn-lg mt-3 disabled" role="button" aria-disabled="true">
-      <i class="bi bi-apple"></i> Coming soon to the App Store
-    </span>
+    <a class="btn btn-light btn-lg mt-3" href="{{ page.app_store_url }}">
+      <i class="bi bi-apple"></i> Download on the App Store
+    </a>
   </div>
 </header>
 
@@ -96,7 +97,7 @@ screenshots:
           <div class="screenshot-frame">
             <img src="{{ '/assets/img/' | append: shot.file | relative_url }}"
                  alt="Satoe-Hub screenshot: {{ shot.caption }}" class="img-fluid"
-                 width="1206" height="2622" loading="lazy">
+                 width="1320" height="2868" loading="lazy">
           </div>
           <p class="mt-3">{{ shot.caption }}</p>
         </div>
@@ -108,8 +109,8 @@ screenshots:
 <section class="py-5">
   <div class="container px-4 px-lg-5 text-center">
     <h2>Get Satoe-Hub</h2>
-    <span class="btn btn-primary btn-lg mt-3 disabled" role="button" aria-disabled="true">
-      <i class="bi bi-apple"></i> Coming soon to the App Store
-    </span>
+    <a class="btn btn-primary btn-lg mt-3" href="{{ page.app_store_url }}">
+      <i class="bi bi-apple"></i> Download on the App Store
+    </a>
   </div>
 </section>
